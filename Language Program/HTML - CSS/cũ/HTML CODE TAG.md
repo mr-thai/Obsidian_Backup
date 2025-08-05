@@ -1,0 +1,4 @@
+- là thẻ có ngữ nghĩa
+- sử dụng khi có 1 đoạn code web sẽ hiểu đây là 1 đoạn code
+- dùng để đọc các ký tự [[HTML ENTITIES_]]
+- thường dùng để trình bày code lên giao diện web

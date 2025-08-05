@@ -1,0 +1,13 @@
+{
+  "theme": "obsidian",
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "Arial",
+  "cssTheme": "Minimal",
+  "nativeMenus": true,
+  "accentColor": "#ecbef8",
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "vimrc",
+    "center-cursor"
+  ]
+}

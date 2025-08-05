@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "39c4c180ab334051",
+    "type": "split",
+    "children": [
+      {
+        "id": "f673a57f3a6b93b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9697c81291d29292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storage/Free ms365.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free ms365"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "158c24fb18d6d9f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "419b39ecaf36fd83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "060333ed877b589f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d9d454a068f18b36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "MAS",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9f98953540844a24",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5
+  },
+  "right": {
+    "id": "8de6daf26c8886fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "dac7d27f4e7984b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1c0bbefc4cdf028",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1ca02d27720d38d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "z.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Liên kết đến của z"
+            }
+          },
+          {
+            "id": "7b5cbec043d6a498",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "z.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liên kết đi ra từ z"
+            }
+          },
+          {
+            "id": "30ea7ae73fb14930",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled Kanban.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled Kanban"
+            }
+          },
+          {
+            "id": "e67dee528bc10874",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9697c81291d29292",
+  "lastOpenFiles": [
+    "Data Manager Obsidian/Các files chưa có dữ liệu.md",
+    "DANH SÁCH CÔNG VIỆC.md",
+    "Storage/Free ms365.md",
+    "9_Kỹ thuật/Untitled.md",
+    "7_Công cụ và công nghệ/7.2. WLS/7.2.1. Quản lý và nâng cấp hệ thống.md",
+    "7_Công cụ và công nghệ/7.2. WLS/Untitled.md",
+    "Storage",
+    "1_Language Program/1.5. C Sharp/Câu lệnh cơ bản.md",
+    "9_Kỹ thuật/0_keyword.md",
+    "9_Kỹ thuật/Phần mềm/Tất cả các câu lệnh trong Win + r (run).md",
+    "9_Kỹ thuật/Phần mềm/Tệp .TIB là gì.md",
+    "7_Công cụ và công nghệ/7.1. Powershell/7.1.1. Package Managers.md",
+    "9_Kỹ thuật/Phần cứng/Lắp dây wifi chuẩn việt nam.md",
+    "9_Kỹ thuật/Phần mềm/Boot Menu - Boot.md",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250212133500.jpg",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250212133442.jpg",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250212133423.jpg",
+    "Pasted image 20250212133347.png",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250212133315.jpg",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Giấu file hoặc tài liệu vào một bức ảnh trong Windows CMD.md",
+    "9_Kỹ thuật/Phần mềm/Hai Kiểu Bảng Phân Vùng Ổ Cứng MBR vs GPT.md",
+    "9_Kỹ thuật/Phần cứng",
+    "9_Kỹ thuật/Phần mềm",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Untitled.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Kiểm tra độ chai pin của laptop.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Thay đổi âm thanh mặc định trên Windows 11.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Tạo thêm ổ đĩa mới trong máy tính Windows 11.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Vào Windows mà không cần đăng nhập tài khoản Microsoft và mạng wifi khi mới thiết lập máy.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Tạo file test với dung lượng và định dạng tùy ý trên Windows bằng CMD.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Winutil.md",
+    "7_Công cụ và công nghệ/7.4. Tips & Tricks Windows/Cách tạo file hoặc folder ẩn bằng powershell hoặc wsl.md",
+    "7_Công cụ và công nghệ/7.1. Powershell/7.1.3. Các lệnh quản lý file.md",
+    "7_Công cụ và công nghệ/7.1. Powershell/7.1.2. Các lệnh quản lý folder.md",
+    "9_Kỹ thuật/Phần mềm/AnhDVBoot/Tất cả phần mềm trong Anhdv boot 23.71 free.md",
+    "9_Kỹ thuật/Phần mềm/AnhDVBoot",
+    "9_Kỹ thuật",
+    "4_Môn học đại học",
+    "8_English",
+    "Sync-Obsidian",
+    "3_Data Structure and Algorithm/3.7. Prefix sums array",
+    "4_Môn học đại học/Chính trị",
+    "Untitled.canvas",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250105143115.png",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250105142503.png",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250105142335.png",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250105141726.png",
+    "Data Manager Obsidian/PICTURE/Pasted image 20250105140950.png",
+    "2_Projects/2.2. Chi Tiết Dự Án/WEB GIỚI THIỆU CÔNG TY PHẦN MỀM/Untitled.canvas",
+    "PROJECT/WEB GIỚI THIỆU PHẦN MỀM/SƠ ĐỒ PHÁT TRIỂN.canvas",
+    "Chưa đặt tên 2.canvas",
+    "Chưa đặt tên 1.canvas",
+    "C VS C++/TÀI LIỆU/Chưa đặt tên.canvas"
+  ]
+}

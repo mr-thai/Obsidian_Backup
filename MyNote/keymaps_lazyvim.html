@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⌨️ Keymaps LazyVim - Hướng dẫn phím tắt</title>
+  <style>
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 7.5px;
+    color: #000;
+    background: none;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(95mm, 1fr)); /* 2 cột tối đa */
+    gap: 5mm;
+  }
+
+  .keymap-section {
+    border: 1px solid #aaa;
+    padding: 2mm;
+    page-break-inside: avoid;
+  }
+
+  .keymap-section h2 {
+    font-size: 8px;
+    margin-bottom: 2mm;
+  }
+
+  table.keymap-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .keymap-table th, .keymap-table td {
+    border: 1px solid #666;
+    padding: 1mm;
+    font-size: 7px;
+    word-break: break-word;
+  }
+
+  .mode {
+    font-style: italic;
+    color: #333;
+  }
+
+  .section-description {
+    display: none;
+  }
+
+  @media print {
+    .content {
+      column-count: 3;
+      column-gap: 10px;
+    }
+    .keymap-section {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 8px;
+    }
+    .keymap-table th, .keymap-table td {
+      padding: 2px 4px;
+      font-size: 9px;
+    }
+  }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            
+
+            <!-- BẢNG 1: GENERAL -->
+            <div class="section" id="general">
+                <ul>
+                    <li><h1><strong>Leader key mặc định:</strong> <span class="key">&lt;space&gt;</span></h2></li>
+                    <li><h1><strong>Local leader mặc định:</strong> <span class="key">\</span></h2></li>
+                </ul>
+                <h2>🔧 General - Phím tắt chung</h2>
+                <p>Đây là các phím tắt cơ bản và chung nhất trong LazyVim, bao gồm điều hướng, quản lý buffer, cửa sổ và các tùy chọn hiển thị.</p>
+                
+                <table class="keymap-table">
+                    <thead>
+                        <tr>
+                            <th>Phím tắt</th>
+                            <th>Mô tả</th>
+                            <th>Chế độ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="key">j</span></td>
+                            <td class="description">Di chuyển xuống</td>
+                            <td><span class="mode">n, x</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;Down&gt;</span></td>
+                            <td class="description">Di chuyển xuống</td>
+                            <td><span class="mode">n, x</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">k</span></td>
+                            <td class="description">Di chuyển lên</td>
+                            <td><span class="mode">n, x</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;Up&gt;</span></td>
+                            <td class="description">Di chuyển lên</td>
+                            <td><span class="mode">n, x</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-h&gt;</span></td>
+                            <td class="description">Chuyển đến cửa sổ bên trái</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-j&gt;</span></td>
+                            <td class="description">Chuyển đến cửa sổ bên dưới</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-k&gt;</span></td>
+                            <td class="description">Chuyển đến cửa sổ bên trên</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-l&gt;</span></td>
+                            <td class="description">Chuyển đến cửa sổ bên phải</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-Up&gt;</span></td>
+                            <td class="description">Tăng chiều cao cửa sổ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-Down&gt;</span></td>
+                            <td class="description">Giảm chiều cao cửa sổ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-Left&gt;</span></td>
+                            <td class="description">Giảm chiều rộng cửa sổ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-Right&gt;</span></td>
+                            <td class="description">Tăng chiều rộng cửa sổ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;A-j&gt;</span></td>
+                            <td class="description">Di chuyển xuống</td>
+                            <td><span class="mode">n, i, v</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;A-k&gt;</span></td>
+                            <td class="description">Di chuyển lên</td>
+                            <td><span class="mode">n, i, v</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;S-h&gt;</span></td>
+                            <td class="description">Buffer trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;S-l&gt;</span></td>
+                            <td class="description">Buffer tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">[b</span></td>
+                            <td class="description">Buffer trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">]b</span></td>
+                            <td class="description">Buffer tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;bb</span></td>
+                            <td class="description">Chuyển đổi sang buffer khác</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;`</span></td>
+                            <td class="description">Chuyển đổi sang buffer khác</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;bd</span></td>
+                            <td class="description">Xóa buffer</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;bo</span></td>
+                            <td class="description">Xóa các buffer khác</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;bD</span></td>
+                            <td class="description">Xóa buffer và cửa sổ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;esc&gt;</span></td>
+                            <td class="description">Thoát và xóa tìm kiếm</td>
+                            <td><span class="mode">i, n, s</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ur</span></td>
+                            <td class="description">Vẽ lại / Xóa tìm kiếm / Cập nhật diff</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">n</span></td>
+                            <td class="description">Kết quả tìm kiếm tiếp theo</td>
+                            <td><span class="mode">n, x, o</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">N</span></td>
+                            <td class="description">Kết quả tìm kiếm trước đó</td>
+                            <td><span class="mode">n, x, o</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-s&gt;</span></td>
+                            <td class="description">Lưu file</td>
+                            <td><span class="mode">i, x, n, s</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;K</span></td>
+                            <td class="description">Keywordprg</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">gco</span></td>
+                            <td class="description">Thêm comment bên dưới</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">gcO</span></td>
+                            <td class="description">Thêm comment bên trên</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;l</span></td>
+                            <td class="description">Lazy</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;fn</span></td>
+                            <td class="description">File mới</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;xl</span></td>
+                            <td class="description">Danh sách vị trí</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;xq</span></td>
+                            <td class="description">Danh sách quickfix</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">[q</span></td>
+                            <td class="description">Quickfix trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">]q</span></td>
+                            <td class="description">Quickfix tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;cf</span></td>
+                            <td class="description">Format</td>
+                            <td><span class="mode">n, v</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;cd</span></td>
+                            <td class="description">Chẩn đoán dòng</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">]d</span></td>
+                            <td class="description">Chẩn đoán tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">[d</span></td>
+                            <td class="description">Chẩn đoán trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">]e</span></td>
+                            <td class="description">Lỗi tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">[e</span></td>
+                            <td class="description">Lỗi trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">]w</span></td>
+                            <td class="description">Cảnh báo tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">[w</span></td>
+                            <td class="description">Cảnh báo trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uf</span></td>
+                            <td class="description">Bật/tắt tự động format (Toàn cục)</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uF</span></td>
+                            <td class="description">Bật/tắt tự động format (Buffer)</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;us</span></td>
+                            <td class="description">Bật/tắt kiểm tra chính tả</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uw</span></td>
+                            <td class="description">Bật/tắt wrap</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uL</span></td>
+                            <td class="description">Bật/tắt số dòng tương đối</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ud</span></td>
+                            <td class="description">Bật/tắt chẩn đoán</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ul</span></td>
+                            <td class="description">Bật/tắt số dòng</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uc</span></td>
+                            <td class="description">Bật/tắt mức độ ẩn</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uA</span></td>
+                            <td class="description">Bật/tắt tabline</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uT</span></td>
+                            <td class="description">Bật/tắt highlight treesitter</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ub</span></td>
+                            <td class="description">Bật/tắt nền tối</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uD</span></td>
+                            <td class="description">Bật/tắt làm mờ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ua</span></td>
+                            <td class="description">Bật/tắt hoạt ảnh</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ug</span></td>
+                            <td class="description">Bật/tắt hướng dẫn thụt lề</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uS</span></td>
+                            <td class="description">Bật/tắt cuộn mượt</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;dpp</span></td>
+                            <td class="description">Bật/tắt profiler</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;dph</span></td>
+                            <td class="description">Bật/tắt highlight profiler</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uh</span></td>
+                            <td class="description">Bật/tắt gợi ý inlay</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;gb</span></td>
+                            <td class="description">Git blame dòng</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;gB</span></td>
+                            <td class="description">Git browse (mở)</td>
+                            <td><span class="mode">n, x</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;gY</span></td>
+                            <td class="description">Git browse (sao chép)</td>
+                            <td><span class="mode">n, x</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;qq</span></td>
+                            <td class="description">Thoát tất cả</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ui</span></td>
+                            <td class="description">Kiểm tra vị trí</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uI</span></td>
+                            <td class="description">Kiểm tra cây</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;L</span></td>
+                            <td class="description">LazyVim changelog</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;fT</span></td>
+                            <td class="description">Terminal (thư mục hiện tại)</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;ft</span></td>
+                            <td class="description">Terminal (thư mục gốc)</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;c-/&gt;</span></td>
+                            <td class="description">Terminal (thư mục gốc)</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;c-_&gt;</span></td>
+                            <td class="description">which_key_ignore</td>
+                            <td><span class="mode">n, t</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;C-/&gt;</span></td>
+                            <td class="description">Ẩn terminal</td>
+                            <td><span class="mode">t</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;-</span></td>
+                            <td class="description">Chia cửa sổ bên dưới</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;|</span></td>
+                            <td class="description">Chia cửa sổ bên phải</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;wd</span></td>
+                            <td class="description">Xóa cửa sổ</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;wm</span></td>
+                            <td class="description">Bật/tắt chế độ zoom</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uZ</span></td>
+                            <td class="description">Bật/tắt chế độ zoom</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;uz</span></td>
+                            <td class="description">Bật/tắt chế độ zen</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;l</span></td>
+                            <td class="description">Tab cuối cùng</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;o</span></td>
+                            <td class="description">Đóng các tab khác</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;f</span></td>
+                            <td class="description">Tab đầu tiên</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;&lt;tab&gt;</span></td>
+                            <td class="description">Tab mới</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;]</span></td>
+                            <td class="description">Tab tiếp theo</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;d</span></td>
+                            <td class="description">Đóng tab</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="key">&lt;leader&gt;&lt;tab&gt;[</span></td>
+                            <td class="description">Tab trước đó</td>
+                            <td><span class="mode">n</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Bảng LSP - Language Server Protocol -->
+            <div class="keymap-section">
+                <h2 id="lsp">🔧 LSP (Language Server Protocol)</h2>
+                <p class="section-description">
+                    Các phím tắt để tương tác với Language Server Protocol, hỗ trợ code navigation, 
+                    refactoring và các tính năng thông minh khác.
+                </p>
+                
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;leader&gt;cl</code></td>
+                                <td>Hiển thị thông tin LSP</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>gd</code></td>
+                                <td>Đi đến định nghĩa</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>gr</code></td>
+                                <td>Tìm tất cả tham chiếu</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>gI</code></td>
+                                <td>Đi đến implementation</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>gy</code></td>
+                                <td>Đi đến định nghĩa kiểu dữ liệu</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>gD</code></td>
+                                <td>Đi đến khai báo</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>K</code></td>
+                                <td>Hiển thị thông tin hover</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>gK</code></td>
+                                <td>Hiển thị signature help</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;c-k&gt;</code></td>
+                                <td>Hiển thị signature help</td>
+                                <td><span class="mode insert">i</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;ca</code></td>
+                                <td>Thực hiện code action</td>
+                                <td><span class="mode normal">n</span>, <span class="mode visual">v</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;cc</code></td>
+                                <td>Chạy codelens</td>
+                                <td><span class="mode normal">n</span>, <span class="mode visual">v</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;cC</code></td>
+                                <td>Làm mới và hiển thị codelens</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;cR</code></td>
+                                <td>Đổi tên file</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;cr</code></td>
+                                <td>Đổi tên symbol</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;cA</code></td>
+                                <td>Thực hiện source action</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>]]</code></td>
+                                <td>Tham chiếu tiếp theo</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>[[</code></td>
+                                <td>Tham chiếu trước đó</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;a-n&gt;</code></td>
+                                <td>Tham chiếu tiếp theo</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;a-p&gt;</code></td>
+                                <td>Tham chiếu trước đó</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="bufferline">📋 Bufferline.nvim</h2>
+                <p class="section-description">
+                    Quản lý buffer tabs với giao diện đẹp mắt và các tính năng nâng cao.
+                </p>
+                
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;leader&gt;bl</code></td>
+                                <td>Xóa tất cả buffer bên trái</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;bp</code></td>
+                                <td>Ghim/Bỏ ghim buffer</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;bP</code></td>
+                                <td>Xóa tất cả buffer không được ghim</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;leader&gt;br</code></td>
+                                <td>Xóa tất cả buffer bên phải</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>[b</code></td>
+                                <td>Buffer trước đó</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>[B</code></td>
+                                <td>Di chuyển buffer lên trước</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>]b</code></td>
+                                <td>Buffer tiếp theo</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>]B</code></td>
+                                <td>Di chuyển buffer xuống dưới</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;S-h&gt;</code></td>
+                                <td>Buffer trước đó</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;S-l&gt;</code></td>
+                                <td>Buffer tiếp theo</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                 <h2 id="conform">🎨 Conform.nvim</h2>
+                <p class="section-description">
+                    Plugin format code tự động với hỗ trợ nhiều formatter khác nhau.
+                </p>
+                
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;leader&gt;cF</code></td>
+                                <td>Format các ngôn ngữ được inject</td>
+                                <td><span class="mode normal">n</span>, <span class="mode visual">v</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="flash">⚡ Flash.nvim</h2>
+                <p class="section-description">
+                    Plugin tìm kiếm và di chuyển nhanh với giao diện đẹp mắt.
+                </p>
+                
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;c-s&gt;</code></td>
+                                <td>Bật/tắt Flash Search</td>
+                                <td><span class="mode command">c</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>r</code></td>
+                                <td>Remote Flash</td>
+                                <td><span class="mode operator">o</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>R</code></td>
+                                <td>Treesitter Search</td>
+                                <td><span class="mode operator">o</span>, <span class="mode visual">x</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>s</code></td>
+                                <td>Flash</td>
+                                <td><span class="mode normal">n</span>, <span class="mode operator">o</span>, <span class="mode visual">x</span></td>
+                            </tr>
+                            <tr>
+                                <td><code>S</code></td>
+                                <td>Flash Treesitter</td>
+                                <td><span class="mode normal">n</span>, <span class="mode operator">o</span>, <span class="mode visual">x</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="grug-far">🔍 Grug-far.nvim</h2>
+                <p class="section-description">
+                    Plugin tìm kiếm và thay thế mạnh mẽ với giao diện trực quan.
+                </p>
+                
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;leader&gt;sr</code></td>
+                                <td>Tìm kiếm và thay thế</td>
+                                <td><span class="mode normal">n</span>, <span class="mode visual">v</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="mason">🏗️ Mason.nvim</h2>
+                <p class="section-description">
+                    Package manager cho LSP servers, DAP servers, linters, và formatters.
+                </p>
+                
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;leader&gt;cm</code></td>
+                                <td>Mở Mason</td>
+                                <td><span class="mode normal">n</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="noice">💬 Noice.nvim</h2>
+                <p class="section-description">
+                    Plugin nâng cao trải nghiệm thông báo, command line và lịch sử thông báo trong Neovim.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>&lt;c-b&gt;</code></td><td>Cuộn lên</td><td><span class="mode normal">n</span>, <span class="mode insert">i</span>, <span class="mode select">s</span></td></tr>
+                            <tr><td><code>&lt;c-f&gt;</code></td><td>Cuộn xuống</td><td><span class="mode normal">n</span>, <span class="mode insert">i</span>, <span class="mode select">s</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sn</code></td><td>+noice</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sna</code></td><td>Noice All</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;snd</code></td><td>Ẩn tất cả thông báo</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;snh</code></td><td>Lịch sử thông báo</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;snl</code></td><td>Thông báo cuối cùng</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;snt</code></td><td>Chọn thông báo (Telescope/FzfLua)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;S-Enter&gt;</code></td><td>Redirect Cmdline</td><td><span class="mode command">c</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="treesitter">🌳 nvim-treesitter</h2>
+                <p class="section-description">
+                    Plugin phân tích cú pháp code mạnh mẽ, hỗ trợ highlight, folding, và nhiều tính năng nâng cao.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>&lt;bs&gt;</code></td><td>Giảm vùng chọn</td><td><span class="mode visual">x</span></td></tr>
+                            <tr><td><code>&lt;c-space&gt;</code></td><td>Mở rộng vùng chọn</td><td><span class="mode normal">n</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="persistence">💾 persistence.nvim</h2>
+                <p class="section-description">
+                    Plugin lưu và khôi phục session làm việc tự động.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>&lt;leader&gt;qd</code></td><td>Không lưu session hiện tại</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;ql</code></td><td>Khôi phục session cuối</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;qs</code></td><td>Khôi phục session</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;qS</code></td><td>Chọn session</td><td><span class="mode normal">n</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="which-key">❓ which-key.nvim</h2>
+                <p class="section-description">
+                    Plugin hiển thị popup các phím tắt có thể sử dụng tiếp theo khi nhấn leader hoặc các tổ hợp phím khác.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>&lt;c-w&gt;&lt;space&gt;</code></td><td>Window Hydra Mode (which-key)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;?</code></td><td>Buffer Keymaps (which-key)</td><td><span class="mode normal">n</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="trouble">🚨 trouble.nvim</h2>
+                <p class="section-description">
+                    Plugin hiển thị diagnostics, quickfix, location list, lsp references/definitions dưới dạng bảng tổng hợp.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>&lt;leader&gt;cs</code></td><td>Symbols (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;cS</code></td><td>LSP references/definitions/... (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xL</code></td><td>Location List (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xQ</code></td><td>Quickfix List (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xx</code></td><td>Diagnostics (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xX</code></td><td>Buffer Diagnostics (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>[q</code></td><td>Quickfix/Diagnostics trước đó</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>]q</code></td><td>Quickfix/Diagnostics tiếp theo</td><td><span class="mode normal">n</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 id="trouble">🚨 trouble.nvim</h2>
+                <p class="section-description">
+                    Plugin hiển thị diagnostics, quickfix, location list, lsp references/definitions dưới dạng bảng tổng hợp.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>&lt;leader&gt;cs</code></td><td>Symbols (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;cS</code></td><td>LSP references/definitions/... (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xL</code></td><td>Location List (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xQ</code></td><td>Quickfix List (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xx</code></td><td>Diagnostics (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;xX</code></td><td>Buffer Diagnostics (Trouble)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>[q</code></td><td>Quickfix/Diagnostics trước đó</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>]q</code></td><td>Quickfix/Diagnostics tiếp theo</td><td><span class="mode normal">n</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="keymap-section">
+                <h2 id="snacks">🍪 snacks.nvim</h2>
+                <p class="section-description">
+                    Plugin hỗ trợ tìm kiếm, quản lý file, buffer, dự án, explorer, grep, lịch sử, và nhiều tiện ích khác cho LazyVim.
+                </p>
+                <div class="table-container">
+                    <table class="keymap-table">
+                        <thead>
+                            <tr>
+                                <th>Phím tắt</th>
+                                <th>Mô tả</th>
+                                <th>Chế độ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Tìm file, buffer, dự án -->
+                            <tr><td><code>&lt;leader&gt;&lt;space&gt;</code></td><td>Tìm file (Root Dir)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;ff</code></td><td>Tìm file (Root Dir)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fF</code></td><td>Tìm file (cwd)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fg</code></td><td>Tìm file (git-files)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fr</code></td><td>File gần đây</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fR</code></td><td>File gần đây (cwd)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fb</code></td><td>Buffer</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fB</code></td><td>Buffer (tất cả)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fc</code></td><td>Tìm file cấu hình</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fp</code></td><td>Dự án</td><td><span class="mode normal">n</span></td></tr>
+                            <!-- Explorer -->
+                            <tr><td><code>&lt;leader&gt;e</code></td><td>Explorer Snacks (root dir)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;E</code></td><td>Explorer Snacks (cwd)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fe</code></td><td>Explorer Snacks (root dir)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;fE</code></td><td>Explorer Snacks (cwd)</td><td><span class="mode normal">n</span></td></tr>
+                            <!-- Grep, tìm kiếm nâng cao -->
+                            <tr><td><code>&lt;leader&gt;/</code></td><td>Grep (Root Dir)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;s/</code></td><td>Lịch sử tìm kiếm</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sg</code></td><td>Grep (Root Dir)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sG</code></td><td>Grep (cwd)</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sb</code></td><td>Tìm trong dòng buffer</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sB</code></td><td>Grep các buffer đang mở</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sh</code></td><td>Help Pages</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sk</code></td><td>Keymaps</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sl</code></td><td>Location List</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sm</code></td><td>Marks</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sM</code></td><td>Man Pages</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sp</code></td><td>Tìm plugin spec</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sq</code></td><td>Quickfix List</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sR</code></td><td>Resume</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;su</code></td><td>Undotree</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sw</code></td><td>Tìm kiếm theo vùng chọn hoặc từ (Root Dir)</td><td><span class="mode normal">n</span>, <span class="mode visual">x</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;sW</code></td><td>Tìm kiếm theo vùng chọn hoặc từ (cwd)</td><td><span class="mode normal">n</span>, <span class="mode visual">x</span></td></tr>
+                            <!-- Lịch sử, notification, tiện ích khác -->
+                            <tr><td><code>&lt;leader&gt;n</code></td><td>Lịch sử thông báo</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;dps</code></td><td>Profiler Scratch Buffer</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;dpp</code></td><td>Bật/tắt Profiler</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;dph</code></td><td>Bật/tắt Profiler Highlights</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;S</code></td><td>Chọn Scratch Buffer</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;.</code></td><td>Bật/tắt Scratch Buffer</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;uC</code></td><td>Chọn Colorschemes</td><td><span class="mode normal">n</span></td></tr>
+                            <tr><td><code>&lt;leader&gt;un</code></td><td>Ẩn tất cả thông báo</td><td><span class="mode normal">n</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

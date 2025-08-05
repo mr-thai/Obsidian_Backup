@@ -1,0 +1,14 @@
+.markdown-source-view.mod-cm6 .cm-scroller {
+  scroll-padding-top: 50vh !important;
+  scroll-padding-bottom: 50vh !important;
+}
+
+.cm-active.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line,
+.cm-active:not(.cm-gutterElement) {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+.cm-gutterElement.cm-active {
+  color: #5ff188;
+  font-weight: bold;
+}
