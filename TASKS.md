@@ -21,6 +21,7 @@ kanban-plugin: board
 
 ## lịch sử đảng
 
+- [ ] chuyển câu trọng tâm thành câu hỏi anki
 
 
 ## Task Other

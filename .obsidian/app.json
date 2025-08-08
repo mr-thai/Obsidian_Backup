@@ -7,7 +7,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "spellcheck": true,
+  "spellcheck": false,
   "defaultViewMode": "preview",
   "livePreview": true,
   "alwaysUpdateLinks": true,
