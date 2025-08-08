@@ -51,10 +51,13 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Projects/AM01/Untitled Kanban.md",
+                "file": "TASKS.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
+                    false,
+                    false,
+                    false,
                     false,
                     false,
                     false
@@ -62,7 +65,7 @@
                 }
               },
               "icon": "lucide-trello",
-              "title": "Untitled Kanban"
+              "title": "TASKS"
             }
           }
         ],
@@ -123,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c86df02042e6df32",
@@ -237,11 +241,12 @@
   },
   "active": "2aef9c4f5ee27660",
   "lastOpenFiles": [
+    "Projects/AM01/Tasks.md",
     "Projects/AM01/Main.canvas",
-    "Projects/AM01/Untitled Kanban.md",
+    "DaiLy Note/07-08-2025.md",
+    "TASKS.md",
     "Projects/AM01/Component",
     "Projects/AM01/Untitled.md",
-    "TASKS.md",
     "Projects/AM01",
     "DaiLy Note/06-08-2025.md",
     "DaiLy Note/05-08-2025.md",
@@ -265,7 +270,6 @@
     "Language Program/Powershell/Package Managers.md",
     "Language Program/Powershell/Cài Đặt WSL Trên Windows.md",
     "Language Program/Powershell/Thay đổi logo boot window.md",
-    "Language Program/Powershell/Tạo file test với dung lượng và định dạng tùy ý trên Windows bằng CMD.md",
-    "Language Program/Powershell/Các câu lệnh cơ bản.md"
+    "Language Program/Powershell/Tạo file test với dung lượng và định dạng tùy ý trên Windows bằng CMD.md"
   ]
 }

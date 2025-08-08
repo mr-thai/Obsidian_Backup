@@ -7,12 +7,8 @@ kanban-plugin: board
 ## Genshin impact
 
 - [ ] đánh nhà hát
-- [ ] mở toàn bộ điểm dịch chuyện mới
-- [ ] hoàn thành sử kiện hè genshin
 - [ ] hoàn thành thu thập nguyên liệu map mới
 - [ ] Up Varesa
-- [ ] Up Cheverest
-- [ ] up charlotte
 
 
 ## Auto Tasks
@@ -34,6 +30,10 @@ kanban-plugin: board
 
 ## Complete
 
+- [ ] up charlotte
+- [ ] hoàn thành sử kiện hè genshin
+- [ ] Up Cheverest
+- [ ] mở toàn bộ điểm dịch chuyện mới
 
 
 
