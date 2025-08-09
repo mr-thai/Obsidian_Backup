@@ -11,23 +11,15 @@
             "id": "2aef9c4f5ee27660",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "TASKS.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Language Program/Javascript/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-trello",
-              "title": "TASKS"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -229,6 +221,9 @@
   },
   "active": "2aef9c4f5ee27660",
   "lastOpenFiles": [
+    "DaiLy Note/09-08-2025.md",
+    "Language Program/Javascript/Untitled.md",
+    "TASKS.md",
     "DaiLy Note/08-08-2025.md",
     "Projects/AM01/Tasks.md",
     "Documents/Lộ trình học python.md",
@@ -237,7 +232,6 @@
     "Documents/Lộ trình học javascript.md",
     "Documents/Lộ trình học c++.md",
     "Projects/~ IDEA ~.md",
-    "TASKS.md",
     "Projects/AM01/Main.canvas",
     "DaiLy Note/07-08-2025.md",
     "Projects/AM01/Component",
@@ -257,8 +251,6 @@
     "Documents/document language/rust - lua.md",
     "Documents/document language/kotlin.md",
     "Documents/document language/winform.md",
-    "Documents/document language/python.md",
-    "Documents/document language/Javascript.md",
     "Documents/document language"
   ]
 }
