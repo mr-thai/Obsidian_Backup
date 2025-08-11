@@ -12,3 +12,5 @@
 | 8   | [[NHÚNG CHATBOT VÀO MÔI TRƯỜNG DÒNG LỆNH UBUNTU]]                                                       |
 | 9   | [[chatbot biểu diễn cảm xúc bằng icon biểu cảm trong genshin]]                                          |
 | 10  | [[app win/android dùng để hạn chế khoảng thời gian không được dùng app]]                                |
+| 11  | [[cwau dữ liệu ảnh trên zerochan thành app điện thoại]]                                                 |
+|     |                                                                                                         |

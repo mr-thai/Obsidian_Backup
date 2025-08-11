@@ -8,46 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2aef9c4f5ee27660",
+            "id": "a41f406d4f71dda3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Language Program/Javascript/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "TASKS.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "7f21794e1a5e767c",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/PowerShell/PowerShell/releases/tag/v7.5.2",
-                "title": "Release v7.5.2 Release of PowerShell · PowerShell/PowerShell · GitHub",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Release v7.5.2 Release of PowerShell · PowerShell/PowerShell · GitHub"
-            }
-          },
-          {
-            "id": "966ad9d6069e6623",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://kotlinlang.org/docs/basic-syntax.html#variables",
-                "title": "Basic syntax | Kotlin Documentation",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Basic syntax | Kotlin Documentation"
+              "icon": "lucide-trello",
+              "title": "TASKS"
             }
           }
         ]
@@ -193,8 +173,21 @@
               "icon": "lucide-list",
               "title": "Outline of TASKS"
             }
+          },
+          {
+            "id": "215068564ca43dad",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Language Program/Javascript/Cấu trúc chương trình cơ bản.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Cấu trúc chương trình cơ bản"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -219,38 +212,40 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2aef9c4f5ee27660",
+  "active": "a41f406d4f71dda3",
   "lastOpenFiles": [
-    "DaiLy Note/09-08-2025.md",
-    "Language Program/Javascript/Untitled.md",
-    "TASKS.md",
-    "DaiLy Note/08-08-2025.md",
-    "Projects/AM01/Tasks.md",
-    "Documents/Lộ trình học python.md",
-    "Documents/Lộ trình học powershell script.md",
-    "Documents/Lộ trình học kotlin.md",
-    "Documents/Lộ trình học javascript.md",
-    "Documents/Lộ trình học c++.md",
+    "MyNote/Drawing 2025-07-29 10.11.54.excalidraw.md",
+    "Language Program/Javascript/Cấu trúc chương trình cơ bản.md",
+    "Language Program/Javascript/Built - In Function.md",
+    "Language Program/Powershell/Các câu lệnh cơ bản.md",
+    "Language Program/Powershell/Thay đổi logo boot window.md",
+    "Language Program/Powershell/Package Managers.md",
+    "Documents/Lộ Trình Nhập Môn Bảo Mật Cơ Bản.md",
+    "Documents/Giới thiệu về quy tắc SOLID.md",
+    "Documents/chat và google.md",
+    "Documents/ghi chép và đánh máy.md",
+    "Data Structure and Algorithm/Hoán đổi giá trị bằng array.md",
+    "Data Structure and Algorithm/fork bomb.md",
+    "Công cụ và công nghệ/Hệ thống/Boot Menu - Boot.md",
+    "Công cụ và công nghệ/Apps List/Scrcpy.md",
+    "Language Program/C++/Kiểu dữ liệu/Mảng (`array`).md",
+    "Language Program/C++/Kiểu dữ liệu/Ký tự (Character Type).md",
+    "Language Program/C++/Kiểu dữ liệu/Chuỗi ký tự (string - char).md",
+    "Language Program/C++/Kiểu dữ liệu/Boolean (`bool`).md",
+    "Language Program/Powershell/Tạo file test với dung lượng và định dạng tùy ý trên Windows bằng CMD.md",
+    "Language Program/Powershell/Vào Windows mà không cần đăng nhập tài khoản Microsoft và mạng wifi khi mới thiết lập máy.md",
+    "Language Program/Powershell/Reset idm.md",
+    "Language Program/Powershell/God Mode trên Windows.md",
+    "Language Program/Powershell/Cài Đặt WSL Trên Windows.md",
+    "Môn học đại học/Các môn học.md",
     "Projects/~ IDEA ~.md",
+    "TASKS.md",
+    "Attachments/Picture/Pasted image 20241022111305.png",
+    "Language Program/Javascript 1",
     "Projects/AM01/Main.canvas",
-    "DaiLy Note/07-08-2025.md",
     "Projects/AM01/Component",
-    "Projects/AM01/Untitled.md",
     "Projects/AM01",
-    "DaiLy Note/06-08-2025.md",
-    "DaiLy Note/05-08-2025.md",
-    "MyNote/Untitled.md",
-    "MyNote/Drawing 2025-08-04 21.08.33.excalidraw.md",
     "MyNote/Untitled.canvas",
-    "DaiLy Note/04-08-2025.md",
-    "Documents/document language/c - c++.md",
-    "Documents/document language/MongoDB.md",
-    "Documents/document language/SQLite.md",
-    "Documents/document language/PostgreSQL.md",
-    "Documents/document language/powershell script.md",
-    "Documents/document language/rust - lua.md",
-    "Documents/document language/kotlin.md",
-    "Documents/document language/winform.md",
     "Documents/document language"
   ]
 }

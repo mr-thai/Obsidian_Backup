@@ -1,3 +1,11 @@
+---
+tags:
+  - window
+  - android
+  - terminal
+  - linux
+---
+
 [scrcpy](https://github.com/Genymobile/scrcpy) là công cụ dòng lệnh phù hợp cho cả win, linux, mac để chiếu màn hình điện thoại lên máy tính bằng wifi hoặc dây chuyền
 Dưới đây là chi tiết về **scrcpy v3.1**:
 
@@ -59,28 +67,6 @@ Dưới đây là chi tiết về **scrcpy v3.1**:
     - `Ctrl+C`: Sao chép văn bản.
     - `Ctrl+Shift+S`: Chụp màn hình.
     - `Ctrl+S`: Bật/tắt ghi màn hình.
-
----
-
-## Câu Lệnh   
-
-| **Câu lệnh**                   | **Chức năng**                                    |
-| ------------------------------ | ------------------------------------------------ |
-| `scrcpy`                       | Chạy scrcpy mặc định                             |
-| `scrcpy -b 2M`                 | Giảm bitrate xuống 2Mbps để tiết kiệm băng thông |
-| `scrcpy -r video.mp4`          | Ghi màn hình thiết bị vào file `video.mp4`       |
-| `scrcpy -m 1024`               | Giới hạn độ phân giải tối đa 1024px              |
-| `scrcpy --max-fps 30`          | Giới hạn tốc độ khung hình ở mức 30 FPS          |
-| `scrcpy --stay-awake`          | Giữ màn hình thiết bị luôn bật                   |
-| `scrcpy -t`                    | Hiển thị tên ứng dụng trên thanh tiêu đề         |
-| `scrcpy --crop 1080:1920:0:0`  | Chỉ hiển thị vùng 1080x1920 từ góc (0,0)         |
-| `scrcpy -S`                    | Tắt màn hình thiết bị khi kết nối                |
-| `scrcpy --turn-screen-off`     | Tắt màn hình thiết bị nhưng giữ kết nối          |
-| `scrcpy --disable-screensaver` | Vô hiệu hóa chế độ bảo vệ màn hình trên PC       |
-| `scrcpy -d`                    | Kết nối đến một thiết bị cụ thể qua USB          |
-| `scrcpy -e`                    | Kết nối qua Wi-Fi thay vì USB                    |
-| `scrcpy --audio`               | Truyền cả âm thanh từ thiết bị lên máy tính      |
-| `scrcpy -V debug`              | Chạy scrcpy với chế độ debug                     |
 
 ---
 

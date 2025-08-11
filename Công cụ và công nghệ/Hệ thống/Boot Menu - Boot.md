@@ -1,3 +1,8 @@
+---
+tags:
+  - bios
+---
+
  ## **1. Boot Menu (Chọn thiết bị khởi động)**
 
 Dùng khi muốn chọn USB, ổ cứng khác để boot mà không vào BIOS.
@@ -39,5 +44,3 @@ Dùng khi muốn chỉnh thứ tự boot, bật/tắt Secure Boot, Virtualizatio
 | **Toshiba**           | `F2` hoặc `Esc`             |
 | **Gigabyte/AORUS**    | `Del` hoặc `F2`             |
 | **Microsoft Surface** | Giữ `Volume Up` khi bật máy |
-
-
