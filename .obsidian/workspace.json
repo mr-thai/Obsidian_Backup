@@ -11,23 +11,15 @@
             "id": "a41f406d4f71dda3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "TASKS.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Projects/Làm lại bản tib/File bat/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-trello",
-              "title": "TASKS"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -103,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TASKS.md",
+                "file": "Môn học đại học/Các môn học.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TASKS"
+              "title": "Backlinks for Các môn học"
             }
           },
           {
@@ -122,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASKS.md",
+                "file": "Projects/Làm lại bản tib/Nôi dung tổng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TASKS"
+              "title": "Outgoing links from Nôi dung tổng"
             }
           },
           {
@@ -186,8 +178,7 @@
               "title": "File properties for Cấu trúc chương trình cơ bản"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,6 +205,18 @@
   },
   "active": "a41f406d4f71dda3",
   "lastOpenFiles": [
+    "Projects/Làm lại bản tib/Nôi dung tổng.md",
+    "Projects/Làm lại bản tib/File bat/bộ test nhanh.md",
+    "Projects/Làm lại bản tib/File bat/Untitled.md",
+    "Môn học đại học/Các môn học.md",
+    "Projects/Làm lại bản tib/các bản win/nội dung cần thêm cho win 10.md",
+    "Projects/Làm lại bản tib/các bản win/nội dung cần thêm cho win 11.md",
+    "Projects/Làm lại bản tib/các bản win",
+    "Projects/Làm lại bản tib/File bat/bộ cài driver nhanh.md",
+    "Projects/Làm lại bản tib/File bat",
+    "Projects/Untitled.md",
+    "Projects/Làm lại bản tib",
+    "TASKS.md",
     "MyNote/Drawing 2025-07-29 10.11.54.excalidraw.md",
     "Language Program/Javascript/Cấu trúc chương trình cơ bản.md",
     "Language Program/Javascript/Built - In Function.md",
@@ -231,15 +234,6 @@
     "Language Program/C++/Kiểu dữ liệu/Mảng (`array`).md",
     "Language Program/C++/Kiểu dữ liệu/Ký tự (Character Type).md",
     "Language Program/C++/Kiểu dữ liệu/Chuỗi ký tự (string - char).md",
-    "Language Program/C++/Kiểu dữ liệu/Boolean (`bool`).md",
-    "Language Program/Powershell/Tạo file test với dung lượng và định dạng tùy ý trên Windows bằng CMD.md",
-    "Language Program/Powershell/Vào Windows mà không cần đăng nhập tài khoản Microsoft và mạng wifi khi mới thiết lập máy.md",
-    "Language Program/Powershell/Reset idm.md",
-    "Language Program/Powershell/God Mode trên Windows.md",
-    "Language Program/Powershell/Cài Đặt WSL Trên Windows.md",
-    "Môn học đại học/Các môn học.md",
-    "Projects/~ IDEA ~.md",
-    "TASKS.md",
     "Attachments/Picture/Pasted image 20241022111305.png",
     "Language Program/Javascript 1",
     "Projects/AM01/Main.canvas",

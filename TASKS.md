@@ -33,6 +33,7 @@ kanban-plugin: board
 
 - [ ] up charlotte
 - [ ] hoàn thành sử kiện hè genshin
+- [ ] tạo file hc cho usb backup kết hợp với veracry
 - [ ] Up Cheverest
 - [ ] mở toàn bộ điểm dịch chuyện mới
 
