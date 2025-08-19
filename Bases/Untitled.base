@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.backlinks
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: View

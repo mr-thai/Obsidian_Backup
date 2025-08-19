@@ -1,4 +1,3 @@
-
  # 1. Cấu trúc chương trình
  ## 1.1 Hello World
  ## 1.2 Comment 1 dòng

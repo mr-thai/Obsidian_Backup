@@ -17,7 +17,7 @@
   "foldHeading": true,
   "showLineNumber": true,
   "tabSize": 5,
-  "vimMode": false,
+  "vimMode": true,
   "trashOption": "system",
   "newLinkFormat": "shortest",
   "attachmentFolderPath": "Data Manager Obsidian/PICTURE",

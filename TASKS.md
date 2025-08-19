@@ -6,17 +6,19 @@ kanban-plugin: board
 
 ## Genshin impact
 
-- [ ] đánh nhà hát
 - [ ] hoàn thành thu thập nguyên liệu map mới
 - [ ] Up Varesa
+- [ ] đánh la hoàn
 
 
 ## Auto Tasks
 
 
 
-## javascript
+## task daily
 
+- [ ] định hình lại các nội dung học trong 6 tháng tiếp theo
+- [ ] cài lại win với các công cụ tối thiểu nhất có thể
 
 
 ## lịch sử đảng
@@ -27,15 +29,22 @@ kanban-plugin: board
 ## Task Other
 
 - [ ] Sửa card đồ hoạ (<300k)
+- [ ] cái hoàn thiển để code kotlin trên lazyvim
 
 
 ## Complete
 
 - [ ] up charlotte
 - [ ] hoàn thành sử kiện hè genshin
+- [ ] back up các dữ liệu máy hiện tại từ điện thoại, box, máy tính
+- [ ] tạo ra các sync đồng bộ giữa đện thoại, box, máy tính
+- [ ] đánh nhà hát
+- [ ] tinh gọn điện thoại : nội dung dùng, app, thiết lập
 - [ ] tạo file hc cho usb backup kết hợp với veracry
 - [ ] Up Cheverest
+- [ ] săp xếp lại các app cài đặt trong box
 - [ ] mở toàn bộ điểm dịch chuyện mới
+- [ ] xoá các kênh đăng ký ko cần thiết
 
 
 

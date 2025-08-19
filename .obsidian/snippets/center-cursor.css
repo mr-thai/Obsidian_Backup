@@ -1,14 +1,25 @@
-.markdown-source-view.mod-cm6 .cm-scroller {
+﻿/* Giữ con trỏ giữa màn hình */
+body.minimal-theme .markdown-source-view.mod-cm6 .cm-scroller {
   scroll-padding-top: 50vh !important;
   scroll-padding-bottom: 50vh !important;
 }
 
-.cm-active.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line,
-.cm-active:not(.cm-gutterElement) {
-  background-color: rgba(128, 128, 128, 0.3);
+/* Highlight dòng active */
+body.minimal-theme .markdown-source-view.mod-cm6 .cm-line.cm-activeLine {
+  background-color: rgba(95, 241, 136, 0.15) !important;
+  transition: background-color 0.15s ease;
 }
 
-.cm-gutterElement.cm-active {
-  color: #5ff188;
-  font-weight: bold;
+/* Highlight trong codeblock/list */
+body.minimal-theme .markdown-source-view.mod-cm6 
+  .HyperMD-codeblock.cm-line.cm-activeLine,
+body.minimal-theme .markdown-source-view.mod-cm6 
+  .HyperMD-list-line.cm-line.cm-activeLine {
+  background-color: rgba(95, 241, 136, 0.18) !important;
+}
+
+/* Gutter số dòng */
+body.minimal-theme .markdown-source-view.mod-cm6 .cm-gutterElement.cm-activeLineGutter {
+  color: #5ff188 !important;
+  font-weight: bold !important;
 }
