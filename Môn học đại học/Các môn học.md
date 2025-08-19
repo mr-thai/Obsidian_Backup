@@ -27,7 +27,7 @@
 | 1                               | VIE10001 | Tiếng Việt 1 (Cho sinh viên Lào)          | Tự chọn Ngoại ngữ        | 1       |                | 3     | 30/0/15/0/0/0  | Tự chọn  |
 | 2                               | VIE10002 | Tiếng Việt 2 (Cho sinh viên Lào)          | Tự chọn Ngoại ngữ        | 2       |                | 4     | 45/0/15/0/0/0  | Tự chọn  |
 | **4. Tự chọn 2**                |          |                                           |                          |         | **Số TC: 3**   |       |                |          |
-| 1                               | INF31104 | Cơ sở dữ liệu tiên tiến                   | Tự chọn 2                | 5       |                | 3     | 45/0/0/0/0/0   | Tự chọn  |
+| 1                               | INF31104 | Cơ sở dữ liệu tiên tiến                   | Tự chọn 2                | 6       |                | 3     | 45/0/0/0/0/0   | Tự chọn  |
 | 2                               | INF30057 | Quản trị mạng                             | Tự chọn 2                | 6       |                | 3     | 30/15/0/0/0/0  | Tự chọn  |
 | 3                               | INF30212 | Hệ điều hành Linux                        | Tự chọn 2                | 6       |                | 3     | 30/15/0/0/0/0  | Tự chọn  |
 | 4                               | INF30224 | Web ngữ nghĩa                             | Tự chọn 2                | 6       |                | 3     | 30/15/0/0/0/0  | Tự chọn  |

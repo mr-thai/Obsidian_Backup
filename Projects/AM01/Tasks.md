@@ -14,6 +14,12 @@ kanban-plugin: board
 
 ## complete
 
+
+
+***
+
+## Archive
+
 - [ ] bổ sung class tải lazygit cho quản lý git
 - [ ] hoàn thiện hoàn toàn lazyvim
 - [ ] Thay đổi vị trí install font sang system_ultils
@@ -22,9 +28,6 @@ kanban-plugin: board
 - [ ] thêm class tải btop cho quản lý tiến trình
 - [ ] chuyển đổi tải nerd font thành cài đặt file đã cài đặt sẵn
 - [ ] Sửa lỗi gpu
-
-
-
 
 %% kanban:settings
 ```
