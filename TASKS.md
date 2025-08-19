@@ -17,8 +17,8 @@ kanban-plugin: board
 
 ## task daily
 
-- [ ] định hình lại các nội dung học trong 6 tháng tiếp theo
-- [ ] cài lại win với các công cụ tối thiểu nhất có thể
+- [ ] hỏi xem phần cấu trúc cơ bản của ngôn ngữ lập trình có cần bổ sung gì không
+- [ ] bộ sung bộ templabe cho language nation và lânguage database
 
 
 ## lịch sử đảng
@@ -32,9 +32,12 @@ kanban-plugin: board
 - [ ] cái hoàn thiển để code kotlin trên lazyvim
 
 
-## Complete
+***
+
+## Archive
 
 - [ ] up charlotte
+- [ ] định hình lại các nội dung học trong 6 tháng tiếp theo
 - [ ] hoàn thành sử kiện hè genshin
 - [ ] back up các dữ liệu máy hiện tại từ điện thoại, box, máy tính
 - [ ] tạo ra các sync đồng bộ giữa đện thoại, box, máy tính
@@ -46,11 +49,8 @@ kanban-plugin: board
 - [ ] mở toàn bộ điểm dịch chuyện mới
 - [ ] xoá các kênh đăng ký ko cần thiết
 
-
-
-
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,true,false,false,false]}
 ```
 %%
