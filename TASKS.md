@@ -7,18 +7,17 @@ kanban-plugin: board
 ## Genshin impact
 
 - [ ] hoàn thành thu thập nguyên liệu map mới
-- [ ] Up Varesa
 - [ ] đánh la hoàn
 
 
 ## Auto Tasks
 
+- [ ] tiến hành chia ổ và thiết kế lại theme grud
 
 
 ## task daily
 
-- [ ] hỏi xem phần cấu trúc cơ bản của ngôn ngữ lập trình có cần bổ sung gì không
-- [ ] bộ sung bộ templabe cho language nation và lânguage database
+- [ ] [[hoàn thành tất cả cấu trúc của mục tiêu 6 tháng]]
 
 
 ## lịch sử đảng
@@ -30,6 +29,8 @@ kanban-plugin: board
 
 - [ ] Sửa card đồ hoạ (<300k)
 - [ ] cái hoàn thiển để code kotlin trên lazyvim
+- [ ] Up Varesa
+- [ ] hỏi xem phần cấu trúc cơ bản của ngôn ngữ lập trình có cần bổ sung gì không
 
 
 ***
@@ -51,6 +52,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,true,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
 ```
 %%

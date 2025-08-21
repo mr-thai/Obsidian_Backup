@@ -8,7 +8,7 @@
     "downscalePercent": 100
   },
   "spellcheck": false,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "livePreview": true,
   "alwaysUpdateLinks": true,
   "focusNewTab": false,
@@ -17,7 +17,7 @@
   "foldHeading": true,
   "showLineNumber": true,
   "tabSize": 5,
-  "vimMode": true,
+  "vimMode": false,
   "trashOption": "system",
   "newLinkFormat": "shortest",
   "attachmentFolderPath": "Data Manager Obsidian/PICTURE",

@@ -4,26 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "ba8d1c2cac649728",
+        "id": "0a43c6ec0fc46ef4",
         "type": "tabs",
         "children": [
           {
-            "id": "b18a5864160647ee",
+            "id": "ca54f9a88fcd6ad9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Môn học đại học/Các môn học.md",
-                "mode": "preview",
+                "file": "Attachments/Templater/outline language database.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Các môn học"
+              "title": "outline language database"
             }
           },
           {
-            "id": "fed9bd8afde9a270",
+            "id": "41512021fd8d1897",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -33,7 +33,7 @@
                   "kanban-plugin": "board",
                   "list-collapse": [
                     false,
-                    true,
+                    false,
                     false,
                     false,
                     false
@@ -65,7 +65,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -227,44 +227,45 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "fed9bd8afde9a270",
+  "active": "41512021fd8d1897",
   "lastOpenFiles": [
-    "Attachments/Templater/Cấu trúc cơ bản của ngôn ngữ lập trình.md",
+    "Attachments/Templater/outline language database nosql.md",
+    "Attachments/Templater/outline language database sql based.md",
+    "Attachments/Templater/Language Program/17 Lập trình nâng cao.md",
+    "Attachments/Templater/Language Program/16 Testing & Debugging.md",
+    "Attachments/Templater/Language Program/15 Thư viện chuẩn (Standard Library).md",
+    "Attachments/Templater/Language Program/14 Module & Package.md",
+    "Attachments/Templater/Language Program/13 Lập trình song song & bất đồng bộ.md",
+    "Attachments/Templater/Language Program/12 Quản lý bộ nhớ.md",
+    "Attachments/Templater/Language Program/11 Lập trình hàm (Functional Programming - nếu ngôn ngữ hỗ trợ).md",
+    "Attachments/Templater/Language Program/10 Lập trình hướng đối tượng (OOP).md",
+    "Attachments/Templater/Language Program/9 Xử lý lỗi.md",
+    "Attachments/Templater/Language Program/8 Cấu trúc dữ liệu cơ bản.md",
+    "Attachments/Templater/Language Program/7 Hàm (Function).md",
+    "Attachments/Templater/Language Program/6 Cấu trúc điều khiển.md",
+    "Attachments/Templater/Language Program/5 Nhập - Xuất dữ liệu.md",
+    "Attachments/Templater/Language Program/4 Toán tử.md",
+    "Attachments/Templater/Language Program/3 Kiểu dữ liệu cơ bản.md",
+    "Attachments/Templater/Language Program/2 Biến và hằng.md",
+    "Attachments/Templater/Language Program/1 Cấu trúc chương trình.md",
+    "Attachments/Templater/outline language program.md",
+    "Attachments/Templater/Language Program",
+    "Môn học đại học/Các môn học.md",
+    "Projects/AM01/Tasks.md",
+    "Projects/~ IDEA ~.md",
+    "hoàn thành tất cả cấu trúc của mục tiêu 6 tháng.md",
     "TASKS.md",
-    "Language Nation/Tiếng anh/Untitled.md",
-    "Language Nation/Tiếng nhật/Untitled.md",
-    "Language Nation/Tiếng trung/Untitled.md",
-    "Công cụ và công nghệ/Apps List/Vim/Untitled.md",
+    "Note/Untitled.canvas",
+    "Language Program/Javascript/Cấu trúc chương trình cơ bản javascript.md",
     "Language Nation/Tiếng trung",
     "Language Nation/Tiếng nhật",
     "Language Nation/Tiếng anh",
     "Language Nation",
-    "Công cụ và công nghệ/Apps List/Git/Untitled.md",
-    "Công cụ và công nghệ/Apps List/Docker/Untitled.md",
-    "6 month/kế hoạch 6 tháng tiếp theo.md",
     "Công cụ và công nghệ/Apps List/Vim",
     "Công cụ và công nghệ/Apps List/Docker",
     "Công cụ và công nghệ/Apps List/Git",
-    "Language Program/PostgreSQL/Cấu trúc cơ bản.md",
-    "Language Program/MongoDB/Cấu trúc cơ bản.md",
     "Language Nation/Englist",
     "Language Nation",
-    "Language Program/MongoDB",
-    "Môn học đại học/Các môn học.md",
-    "6 month/ngôn ngữ.md",
-    "Công cụ và công nghệ/Apps List/Scrcpy.md",
-    "Công cụ và công nghệ/Apps List/HackBGRT.md",
-    "Công cụ và công nghệ/Hệ thống/Boot Menu - Boot.md",
-    "Data Structure and Algorithm/Hoán đổi giá trị bằng array.md",
-    "Data Structure and Algorithm/fork bomb.md",
-    "Language Program/C++/Cấu trúc cơ bản C++.md",
-    "Language Program/HTML-CSS/Cấu trúc cơ bản HTML.md",
-    "Language Program/HTML-CSS/Cấu trúc cơ bản CSS.md",
-    "Language Program/Javascript/Cấu trúc chương trình cơ bản javascript.md",
-    "Language Program/Javascript/Built - In Function.md",
-    "Language Program/Kotlin/Cấu trúc chương trình cơ bản kotlin.md",
-    "Language Program/Python/Cấu trúc cơ bản.md",
-    "Projects/~ IDEA ~.md",
     "Attachments/Picture/Pasted image 20241022111305.png",
     "Projects/AM01/Main.canvas",
     "MyNote/Untitled.canvas"
