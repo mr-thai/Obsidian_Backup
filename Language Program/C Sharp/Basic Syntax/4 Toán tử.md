@@ -1,0 +1,8 @@
+## 1 Toán tử số học (+, -, *, /, %)
+## 2 So sánh (== , !=, <, >, <=, >=)
+## 3 Logic (AND, OR, NOT)
+## 4 Gán rút gọn (+=, -=, *=, /=)
+## 5 Tăng/giảm (++/--)
+## 6 Toán tử bitwise (&, |, ^, ~, <<, >>)
+## 7 Toán tử ba ngôi (ternary ? :) )
+## 8 Toán tử đặc biệt (new, instanceof, typeof, in, is, as, pattern matching … tùy ngôn ngữ)

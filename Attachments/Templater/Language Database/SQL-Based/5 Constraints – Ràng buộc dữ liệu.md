@@ -1,0 +1,6 @@
+## 5.1 PRIMARY KEY  
+## 5.2 FOREIGN KEY + ON DELETE/ON UPDATE CASCADE  
+## 5.3 NOT NULL  
+## 5.4 UNIQUE  
+## 5.5 DEFAULT  
+## 5.6 CHECK (giới hạn giá trị)

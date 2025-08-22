@@ -1,0 +1,4 @@
+## 9.1 VIEW: `CREATE VIEW … AS SELECT …`  
+## 9.2 Stored Procedure: `CREATE PROCEDURE …`  
+## 9.3 Function: `CREATE FUNCTION …`  
+## 9.4 Trigger: BEFORE/AFTER INSERT, UPDATE, DELETE

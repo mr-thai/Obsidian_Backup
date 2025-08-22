@@ -8,9 +8,11 @@ kanban-plugin: board
 
 - [ ] hoàn thành thu thập nguyên liệu map mới
 - [ ] đánh la hoàn
+- [ ] làm nhiệm vụ dì lan
+- [ ] làm nhiều vụ sự kiện mới
 
 
-## Auto Tasks
+## Tasks
 
 - [ ] tiến hành chia ổ và thiết kế lại theme grud
 

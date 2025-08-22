@@ -3,70 +3,212 @@ tags:
   - language_program
   - basic
 ---
+## 1. Cấu trúc & văn bản
+### 1.1 Khung tài liệu
+- 1.1.1 `<!DOCTYPE html>`    
+- 1.1.2 `<html>`    
+- 1.1.3 `<head>`    
+- 1.1.4 `<body>`  
+### 1.2 Tiêu đề
+- 1.2.1 `<h1> … <h6>`   
+### 1.3 Đoạn văn
+- 1.3.1 `<p>`   
+### 1.4 Định dạng chữ
+- 1.4.1 `<b>`    
+- 1.4.2 `<i>`    
+- 1.4.3 `<u>`    
+- 1.4.4 `<strong>`    
+- 1.4.5 `<em>`    
+- 1.4.6 `<span>`   
+### 1.5 Ngắt dòng & phân cách
+- 1.5.1 `<br>`    
+- 1.5.2 `<hr>`    
+### 1.6 Văn bản nâng cao (bổ sung)
+- 1.6.1 `<mark>` (highlight chữ)
+    
+- 1.6.2 `<sup>`, `<sub>` (chỉ số trên/dưới)
+    
+- 1.6.3 `<code>`, `<pre>` (code block)
+    
+- 1.6.4 `<blockquote>`, `<q>` (trích dẫn)
+    
+- 1.6.5 `<abbr>` (viết tắt)
+    
 
- 1. Cấu trúc chương trình
- ## 1.1 Hello World
- ## 1.2 Comment 1 dòng
- ## 1.3 Comment nhiều dòng
- ## 1.4 Cấu trúc file chương trình
- ## 1.5 Import thư viện / module
 ---
-# 2. Biến và hằng
- ## 2.1 Khai báo biến
- ## 2.2 Gán giá trị
- ## 2.3 Khai báo & gán cùng lúc
- ## 2.4 Hằng số (constant)
+
+## 2. Liên kết & hình ảnh
+
+### 2.1 Liên kết
+
+- 2.1.1 `<a>` + thuộc tính `href`, `target`, `title`, `download`
+    
+
+### 2.2 Hình ảnh
+
+- 2.2.1 `<img>` + thuộc tính `src`, `alt`, `width`, `height`, `loading`
+    
+
 ---
-# 3. Kiểu dữ liệu cơ bản
- ## 3.1 Số nguyên (int)
- ## 3.2 Số thực (float/double)
- ## 3.3 Ký tự (char)
- ## 3.4 Chuỗi (string)
- ## 3.5 Boolean
- ## 3.6 Null / None / nil
- ## 3.7 Ép kiểu dữ liệu
+
+## 3. Danh sách
+
+### 3.1 Danh sách không thứ tự
+
+- 3.1.1 `<ul>`, `<li>`
+    
+
+### 3.2 Danh sách có thứ tự
+
+- 3.2.1 `<ol>`, `<li>`
+    
+
+### 3.3 Danh sách lồng nhau
+
+- 3.3.1 `<ul>` + `<ol>` kết hợp
+    
+
+### 3.4 Danh sách mô tả (bổ sung)
+
+- 3.4.1 `<dl>`, `<dt>`, `<dd>`
+    
+
 ---
-# 4. Toán tử
- ## 4.1 Toán tử số học (+, -, *, /, %)
- ## 4.2 So sánh (== , !=, <, >, <=, >=)
- ## 4.3 Logic (AND, OR, NOT)
- ## 4.4 Gán rút gọn (+=, -=, *=, /=)
- ## 4.5 Tăng/giảm (++/--)
+
+## 4. Bảng
+
+### 4.1 Bảng cơ bản
+
+- 4.1.1 `<table>`
+    
+- 4.1.2 `<tr>`
+    
+- 4.1.3 `<td>`
+    
+- 4.1.4 `<th>`
+    
+
+### 4.2 Nhóm hàng/cột
+
+- 4.2.1 `<thead>`
+    
+- 4.2.2 `<tbody>`
+    
+- 4.2.3 `<tfoot>`
+    
+
+### 4.3 Thuộc tính bảng
+
+- 4.3.1 `rowspan`, `colspan`, `border`
+    
+
+### 4.4 Thẻ bổ sung (bổ sung)
+
+- 4.4.1 `<caption>` (tiêu đề bảng)
+    
+- 4.4.2 `<col>`, `<colgroup>` (định nghĩa cột)
+    
+
 ---
-# 5. Nhập / Xuất dữ liệu
- ## 5.1 In ra màn hình
- ## 5.2 In có định dạng
- ## 5.3 Nhập từ bàn phím
- ## 5.4 Nhập từ file
- ## 5.5 Xuất ra file
+
+## 5. Biểu mẫu (Forms)
+
+### 5.1 Thẻ `<form>`
+
+- 5.1.1 Thuộc tính `action`, `method`, `enctype`
+    
+
+### 5.2 Input
+
+- 5.2.1 `<input type="text/password/email/number/checkbox/radio/file/date/range/color/hidden">`
+    
+
+### 5.3 Label
+
+- 5.3.1 `<label>`
+    
+
+### 5.4 Textarea
+
+- 5.4.1 `<textarea>`
+    
+
+### 5.5 Select & Option
+
+- 5.5.1 `<select>`
+    
+- 5.5.2 `<option>`
+    
+- 5.5.3 `<optgroup>` (gộp nhóm option)
+    
+
+### 5.6 Nút
+
+- 5.6.1 `<button>`
+    
+- 5.6.2 `<input type="submit/reset/button">`
+    
+
+### 5.7 Thẻ bổ sung (bổ sung)
+
+- 5.7.1 `<fieldset>`, `<legend>` (nhóm input)
+    
+- 5.7.2 Thuộc tính nâng cao: `required`, `placeholder`, `pattern`, `min`, `max`
+    
+
 ---
-# 6. Cấu trúc điều khiển
- ## 6.1 If-elseif-else
- ## 6.4 Vòng while
- ## 6.5 Vòng do-while
- ## 6.6 For-each (duyệt mảng/danh sách)
- ## 6.7 Switch / Match
- ## 6.8 Vòng for (đếm)
- ## 6.9 break / continue
+
+## 6. Thẻ Semantics & Media
+
+### 6.1 Thẻ bố cục
+
+- 6.1.1 `<header>`
+    
+- 6.1.2 `<nav>`
+    
+- 6.1.3 `<main>`
+    
+- 6.1.4 `<section>`
+    
+- 6.1.5 `<article>`
+    
+- 6.1.6 `<aside>`
+    
+- 6.1.7 `<footer>`
+    
+
+### 6.2 Media
+
+- 6.2.1 `<audio>`
+    
+- 6.2.2 `<video>`
+    
+- 6.2.3 `<iframe>`
+    
+- 6.2.4 `<picture>`, `<source>` (ảnh responsive)
+    
+- 6.2.5 `<canvas>` (vẽ đồ họa)
+    
+- 6.2.6 `<svg>` (đồ họa vector)
+    
+
 ---
-# 7. Hàm (Function)
- ## 7.1 Khai báo hàm
- ## 7.3 Hàm có tham số
- ## 7.4 Hàm trả về giá trị
- ## 7.5 Tham số mặc định
- ## 7.6 Hàm ẩn danh / lambda
- ## 7.7 Đệ quy (recursion)
----
-# 8. Cấu trúc dữ liệu cơ bản
- ## 8.1 Mảng / Array
- ## 8.2 Duyệt mảng
- ## 8.3 Chuỗi: nối, cắt, tìm, độ dài
- ## 8.4 Map / Dictionary 
- ## 8.5 List / ArrayList
- ## 8.6 Set
- ## 8.7 Enum
----
-# 9. Xử lý lỗi
- ## 9.1 try-catch
- ## 9.2 finally
- ## 9.3 throw / raise
+
+## 7. Metadata & Script (bổ sung riêng mục)
+
+### 7.1 Metadata
+
+- 7.1.1 `<meta charset="UTF-8">`
+    
+- 7.1.2 `<meta name="viewport">`
+    
+- 7.1.3 `<title>` (tiêu đề tab)
+    
+- 7.1.4 `<link>` (gắn CSS, favicon)
+    
+
+### 7.2 Script
+
+- 7.2.1 `<script>` (JS)
+    
+- 7.2.2 Thuộc tính `defer`, `async`
